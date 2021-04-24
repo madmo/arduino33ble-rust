@@ -1,0 +1,15 @@
+[package]
+name = "arduino33ble-rust"
+version = "0.1.0"
+authors = ["Moritz Bitsch <moritz@h6t.eu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+asm-delay = "0.9.0"
+cortex-m = "0.7.2"
+cortex-m-rt = "0.6.13"
+embedded-hal = "0.2.4"
+nrf52840-hal = "0.12.1"
+rtt-target = { version = "0.3.0", features = ["cortex-m"] }
